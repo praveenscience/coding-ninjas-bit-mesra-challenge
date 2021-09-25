@@ -1,0 +1,95 @@
+<html>
+<video id="background-video" autoplay loop muted poster="https://assets.codepen.io/6093409/river.jpg">
+  <source src="https://assets.codepen.io/6093409/river.mp4" type="video/mp4">
+</video>
+
+
+<h1>Chris Calvin Demta</h1>
+<h2>Portfolio</h2>
+<h3>Hey there, weird is how you describe me</h3>
+ <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Weird Portfolio</title>
+  
+  </head>
+  <body>
+    
+    <section class="intro">
+      
+      <div class="links">
+        <a target="_blank" href="https://www.winggitbooks.com/"><img src="https://lh3.googleusercontent.com/N7w27KTajdw2i7E90BJXZjNlIn9ZuDc5UPfKawvg2QvRNmzXZ00HTC3rHUWPcCVML7fgwg=s85" alt="Start_Up" /></a>
+        <a target="_blank" href="https://www.linkedin.com/in/chris-demta-97aa91209/"><img src="https://i.imgur.com/UcH0TuT.png" alt="LinkedIn" /></a>
+        <a target="_blank" href="https://twitter.com/1e4d3f5640e0474"><img src="https://i.imgur.com/PUYF2hI.png" alt="Website" /></a>
+        <a target="_blank" href="https://www.youtube.com/channel/UCldY1EH4rzwYNw5UaLbawdg"><img src="https://i.imgur.com/Zk83rm9.png" alt="YouTube" /></a>
+      </div>
+    </section>
+  </body>
+  <style>/* video background */
+#background-video {
+  height: 100vh;
+  width: 100vw;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+/* page content */
+h1, h2,h3 {
+  color: white;
+  font-family: Trebuchet MS;
+  font-weight: bold;
+  text-align: center;
+}
+
+h1 {
+  font-size: 6rem;
+  margin-top: 30vh; 
+}
+
+h2 { font-size: 3rem; }
+h3 {font-size: 1.5rem;}
+
+@media (max-width: 750px) {
+    #background-video { display: none; }
+    body {
+      background: url("https://assets.codepen.io/6093409/river.jpg") no-repeat;
+      background-size: cover;
+    }
+  * {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+      }
+      
+      }
+      body::after {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 150px;
+        content: "";
+        
+        z-index: -1;
+      }
+      .intro {
+        margin: 10px;
+        overflow: hidden;
+        background-color: #000000;
+        text-align: center;
+        border-radius: 10px;
+        -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+        -moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+        box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+      }
+      .links img {
+        width: 50px;
+        margin: 15px;
+      }
+}</style>
+</html>

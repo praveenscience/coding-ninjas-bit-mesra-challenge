@@ -1,5 +1,7 @@
 # BIT MESRA Challenge Domains
 
+![Preview](https://i.imgur.com/8ZMHWoV.png)
+
 The rules are simple.
 
 - Make the HTML and CSS look awesomer.

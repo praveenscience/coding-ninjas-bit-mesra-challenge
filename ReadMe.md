@@ -34,7 +34,7 @@ For the Top 20 Awesome Designs.
 
 ### Our Demo
 
-- JSBin: https://jsbin.com/tomunudema/edit?html,output
+- JSBin: https://jsbin.com/tomunudema/edit?html,css,output
 
 ### The Challenge
 
